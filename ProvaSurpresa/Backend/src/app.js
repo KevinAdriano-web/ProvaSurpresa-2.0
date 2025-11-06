@@ -1,3 +1,7 @@
+// Carregar variáveis de ambiente ANTES de qualquer import
+import dotenv from 'dotenv'
+dotenv.config()
+
 import { adicionarRotas } from './rotas.js';
 
 import express from 'express'
